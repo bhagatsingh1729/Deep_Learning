@@ -8,6 +8,7 @@ cat << 'EOF' > .gitignore
 # Datasets & logs
 *.csv
 *.zip
+*.jpg
 logs/
 
 # Virtual environments & Python cache
@@ -16,4 +17,4 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 EOF
-.jpg
+
