@@ -1,0 +1,19 @@
+cat << 'EOF' > .gitignore
+# Saved models & checkpoints
+*.keras
+*.h5
+*.pth
+*.pt
+
+# Datasets & logs
+*.csv
+*.zip
+logs/
+
+# Virtual environments & Python cache
+tfenv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+EOF
+.jpg
